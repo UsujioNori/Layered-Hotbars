@@ -1,0 +1,22 @@
+{
+  "key.category.better-hotbars.controls": "Layered Hotbars",
+  "key.better-hotbars.profile_preview": "Hold to preview stored hotbars",
+  "key.better-hotbars.next_profile": "Hold and scroll to switch hotbar",
+  "message.better-hotbars.assigned_slot": "Assigned %s to slot %s",
+  "message.better-hotbars.profile": "Hotbar %s",
+  "message.better-hotbars.profile_no_space": "Not enough storage space to switch hotbars",
+  "message.better-hotbars.profile_storage_busy": "This physical hotbar profile is already occupied; switch cancelled",
+  "message.better-hotbars.mode_storage_not_empty": "Empty all Layered Hotbars stored rows/profiles before selecting this mode",
+  "config.better-hotbars.title": "Layered Hotbars Settings",
+  "config.better-hotbars.pickup_mode": "Pickup Mode",
+  "config.better-hotbars.pickup_mode.aggressive": "Aggressive",
+  "config.better-hotbars.pickup_mode.casual": "Casual",
+  "config.better-hotbars.behavior_mode": "Hotbar Mode",
+  "config.better-hotbars.behavior_mode.automatic": "Automatic",
+  "config.better-hotbars.behavior_mode.vanilla": "Vanilla",
+  "config.better-hotbars.behavior_mode.vanilla_plus": "Vanilla+",
+  "config.better-hotbars.behavior_mode.partial": "Partial",
+  "config.better-hotbars.behavior_mode.full": "Full",
+  "message.better-hotbars.locked": "Locked hotbar slot %s",
+  "message.better-hotbars.unlocked": "Unlocked hotbar slot %s"
+}

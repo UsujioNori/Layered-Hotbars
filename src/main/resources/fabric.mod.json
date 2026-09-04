@@ -1,0 +1,40 @@
+{
+	"schemaVersion": 1,
+	"id": "better-hotbars",
+	"version": "${version}",
+	"name": "Usu's Layered Hotbars",
+	"description": "Three switchable hotbar profiles with virtual stack support, configurable inventory behavior, sorting, and an optional fourth storage row.",
+	"authors": [
+		"usujiotarako"
+	],
+	"license": "CC0-1.0",
+	"icon": "assets/better-hotbars/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"com.usujiotarako.BetterHotbars"
+		],
+		"client": [
+			"com.usujiotarako.client.BetterHotbarsClient"
+		],
+		"modmenu": [
+			"com.usujiotarako.client.BetterHotbarsModMenu"
+		]
+	},
+	"mixins": [
+		"better-hotbars.mixins.json",
+		{
+			"config": "better-hotbars.client.mixins.json",
+			"environment": "client"
+		}
+	],
+	"depends": {
+		"fabricloader": ">=0.19.3",
+		"minecraft": "~26.2",
+		"java": ">=25",
+		"fabric-api": "*"
+	},
+	"suggests": {
+		"modmenu": ">=20.0.0"
+	}
+}
