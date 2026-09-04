@@ -1,0 +1,29 @@
+{
+	"required": true,
+	"package": "com.usujiotarako.client.mixin",
+	"compatibilityLevel": "JAVA_25",
+	"client": [
+		"AbstractContainerScreenAccessor",
+		"AbstractContainerScreenRenderMixin",
+		"ContainerBackgroundTextureMixin",
+		"ContainerScreenHeightMixin",
+		"HudMixin",
+		"InventoryScreenMixin",
+		"IPNAutoRefillHandlerMixin",
+		"IPNAreaTypesMixin",
+		"IPNLockSlotsHandlerMixin",
+		"KeyboardHandlerMixin",
+		"MouseHandlerMixin",
+		"MinecraftMixin",
+		"MouseTweaksMainMixin",
+		"SlotMixin",
+		"VirtualHotbarInputMixin",
+		"TravelersBackpackBackgroundMixin"
+	],
+	"injectors": {
+		"defaultRequire": 1
+	},
+	"overwrites": {
+		"requireAnnotations": true
+	}
+}

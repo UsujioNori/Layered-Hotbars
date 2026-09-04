@@ -1,0 +1,21 @@
+{
+	"required": true,
+	"package": "com.usujiotarako.mixin",
+	"compatibilityLevel": "JAVA_25",
+	"mixins": [
+		"AbstractContainerMenuMixin",
+		"AbstractContainerMenuAccessor",
+		"InventoryMenuMixin",
+		"InventoryMixin",
+		"ItemEntityMixin",
+		"PlayerMixin",
+		"ServerPlayerMixin",
+		"TravelersBackpackMenuMixin"
+	],
+	"injectors": {
+		"defaultRequire": 1
+	},
+	"overwrites": {
+		"requireAnnotations": true
+	}
+}
